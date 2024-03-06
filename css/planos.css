@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: #f1f1f1;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+#btnM{
+    margin-top:5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    background-color: #6448b1;
+    height: 3rem;
+    width: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 560;
+    border-radius: 0px 15px 15px 0px;
+    letter-spacing: 2px;
+    filter: drop-shadow(5px 20px 10px #00000083);
+}
+
+#btnM:hover{
+    transition: 0.50s;
+    transform: scale(1.1);
+    background-color: #352a53;
+}
+
+
+.card {
+    width: 22rem;
+    height: 90vh;
+    background: #baa5f3;
+    border-radius: 10px;
+    margin: 2rem 0;
+    box-shadow: inset 0 -3em 3em #0000001a,
+    0 0 0 2px #bebebe,
+    0.3em 0.3em 1em #0000004d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.card img{
+    width: 70px;
+}
+
+.card a{
+    width: 170px;
+    align-items: center;
+    display: flex;
+    padding: 15px 35px;
+    background-color: #34197e;
+    border-bottom: 8px solid #220f58;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 2rem 3rem;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card a:hover {
+    transition: 1.5s;
+    background-color: #332658;
+    border: none;
+    transform: scale(0.9);
+    box-shadow: #06060e40 0px 30px 50px -12px inset, #0000004d 0px 18px 26px -18px inset;
+}
+
+.card h1{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+    color: #6448b1;
+}
+
+.card p{
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: start;
+    margin-left: 2rem;
+}
+
+.card h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    filter: drop-shadow(10px 10px 15px #383838af);
+    border-top: 3px solid #838383;
+}
+
+footer {
+    background-color: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+footer img {
+    width: 10rem;
+}
+
+#lin {
+    border-bottom: 2px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+footer h2,
+h1,
+h3,
+a,
+ul {
+    color: #686868;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+footer a:hover{
+    transition: 0.5s;
+    color: #fc7f2c;
+    text-decoration: underline #adacac;
+}
+
+footer h3 {
+    margin: 2rem 0;
+}
+
+
+@media screen and (max-width: 1109px) {
+
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        height: 84vh;
+        margin-bottom: 2rem;
+    }
+
+    .card a{
+        margin-top: 1rem;
+    }
+
+    footer #lin {
+        gap: 2rem;
+    }
+
+
+    @media screen and (max-width: 767px){
+
+        #lin img {
+            width: 5rem;
+        }
+
+        footer #lin {
+            gap: 1rem;
+        }
+
+    }
+}

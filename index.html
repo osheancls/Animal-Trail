@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Trail</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shurtcut icon" href="img/icons8-pata-30.png">
+</head>
+
+<body>
+
+
+    <header id="top">
+        <div id="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <nav>
+            <a href="#sobre">SOBRE NÓS</a>
+            <a href="#planos">PLANOS</a>
+            <a href="#serviços">SERVIÇOS</a>
+            <a href="contatos.html">CONTATOS</a>
+        </nav>  
+   <!--<div id="dlmode">
+        <input type="checkbox" class="checkbox" id="chk">
+        <label class="label" for="chk">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+        </label>
+    </div>--> 
+            <button onclick="openM()" id="menu"><img src="img/btn menu.png"></button>
+            <button onclick="closeM()" id="men"><img src="img/close btn.png"></button>
+        <div id="menuM">
+            <ul>
+                <a href="#sobre">SOBRE NÓS</a>
+                <a href="#planos">PLANOS</a>
+                <a href="#serviços">SERVIÇOS</a>
+                <a href="contatos.html">CONTATOS</a>
+            </ul>
+        </div>
+    </header>
+
+    <main id="inicio">
+        <h1>ONDE O AMOR E O CUIDADO ENCONTRAM SEU CAMINHO</h1>
+
+        <div>
+            <img id="image">
+        </div>
+
+    </main>
+
+    <main id="sobre">
+
+        <h1>Sobre nós</h1>
+
+        <p>
+            Animal Trail é um espaço dedicado ao cuidado e bem-estar do seu pet. Com uma equipe
+            de veterinários altamente especializados , instalações modernas, salas de consulta, cirurgia,
+            laboratrios de diagnósticos e áreas de internação, estamos equipados para lidar com todas as
+            necessidades médicas de seu melhor-amigo.
+        </p>
+
+    </main>
+
+    <main id="planos">
+
+        <h6>PLANOS</h6>
+
+        <section>
+
+            <div class="card-p">
+                <h1>Simples</h1>
+
+                <img src="img/icon card.png" alt="">
+
+                <ul>
+                    <h2>R$49,90/mês</h2>
+                    <a href="planos.html">Ver Benefícios</a>
+                </ul>
+            </div>
+
+            <div class="card-p">
+                <h1>Intermediário</h1>
+
+                <img src="img/icon card2.png" alt="">
+
+                <ul>
+                    <h2>R$79,90/mês</h2>
+                    <a href="planos.html">Ver Benefícios</a>
+                </ul>
+            </div>
+
+            <div class="card-p">
+                <h1>Custo-benefício</h1>
+
+                <img src="img/icon card4.png" alt="">
+
+                <ul>
+                    <h2>R$119,90/mês</h2>
+                    <a href="planos.html">Ver Benefícios</a>
+                </ul>
+            </div>
+
+            <div class="card-p">
+                <h1>Premium</h1>
+
+                <img src="img/icon card3.png" alt="">
+
+                <ul>
+                    <h2>R$189,90/mês</h2>
+                    <a href="planos.html">Ver Benefícios</a>
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+
+    <section id="qualidade">
+        <li>Garantia de Qualidade</li>
+        <img src="img/animais qualidade.png" alt="">
+    </section>
+
+    <section id="serviços">
+        <div>
+            <h1>Serviços</h1>
+            <h6>Esses são alguns dos serviços que somos especializados.</h6>
+        </div>
+
+        <ul>
+            <p>Check-Ups</p>
+            <p>Cirurgias</p>
+            <p>Internação</p>
+        </ul>
+        <ul>
+            <p>Odontologia</p>
+            <p>Urologia</p>
+            <p>Vacinas</p>
+        </ul>
+        <ul>
+            <p>Dermatologia</p>
+            <p>Oftamologia</p>
+            <p>Endocrinologia</p>
+        </ul>
+
+        <img src="img/gato.png">
+    </section>
+
+    <Main id="duvidas">
+        <h1>Tire suas dúvidas!</h1>
+        <h2>Tire suas dúvidas pelo Whatsapp agora mesmo, clicando no botão abaixo.</h2>
+        <a href="https://w.app/z2Tx9H">
+            <li>Gostaria de tirar uma dúvida</li>
+        </a>
+        <img src="img/gato confuso.png" alt="">
+    </Main>
+
+    <main id="clientes">
+    <main>
+        <h5>Área dos Clientes</h5>
+        <h4>veja algumas avaliações de nossos clientes!</h4>
+        <img src="img/like.png">
+    </main>
+    <div>
+        <img src="img/mulher cachorro.png" id="mulher">
+        <img id="comentarios">
+    </div>
+    </main>
+
+    <main id="localiza">
+        <h1>Aonde nos encontrar?</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3249097204834!2d-46.73036142449379!3d-23.52081366010411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d371ec31%3A0x671c9325c275132e!2sETEC%20Prof%C2%B0%20Basilides%20de%20Godoy!5e0!3m2!1spt-BR!2sbr!4v1697563386756!5m2!1spt-BR!2sbr"
+            width="1000" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+
+    <footer>
+        <div id="lin">
+            <img src="img/minaglogo.png" alt="">
+            <img src="img/whiskas logo.png" alt="">
+            <img src="img/pedigree logo.png" alt="">
+            <img src="img/petcleanLogo.png" alt="">
+        </div>
+        <div>
+            <h1>Animal Trail</h1>
+            <h2>Plano de saúde para pets</h2>
+            <ul>
+                <a href="#topo">inicio</a>
+                |
+                <a href="#planos">planos</a>
+                |
+                <a href="contatos.html">contatos</a>
+                <h3>© 2023 Animal Trail. Todos os direitos reservados</h3>
+            </ul>
+        </div>
+    </footer>
+    <div>
+        <a href="#top">
+            <seta>&#8679</seta>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

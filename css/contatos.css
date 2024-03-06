@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+
+body{
+    background:#ac9fcf;
+    display: flex;
+    height: 120vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h6{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#cntts{
+    position: absolute;
+    top: 80%;
+    left: 86%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 13rem;
+}
+
+#cntts ul{
+    display: flex;
+    margin-left: 2rem;
+    gap: 10px;
+}
+
+#cntts i{
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#cntts #ig:hover{
+    transition: 1s;
+    transform: scale(1.3);
+    color: #c300ff;
+}
+#cntts #x:hover{
+    transition: 1s;
+    transform: scale(1.3);
+    color: #0c0c0c;
+}
+#cntts #zp:hover{
+    transition: 1s;
+    transform: scale(1.3);
+    color: #4b862f;
+}
+
+h4{
+    font-size: 4rem;
+    margin-left: 10rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #6c5d99;
+    filter: drop-shadow(20px 7px 10px #0f0f0f77);
+}
+
+#pug{
+    background-color: #a496c9;
+    position: absolute;
+    left: 60%;
+    top: 12%;
+    padding: 2rem;
+    border-radius: 50%;
+    filter: drop-shadow(20px 7px 10px #0f0f0f77);
+}
+
+#btnM{
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    background-color: #4a3b74;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 560;
+    border-radius: 0px 15px 15px 0px;
+    letter-spacing: 2px;
+    width: 8rem;
+    padding: 10px 0;
+    filter: drop-shadow(5px 20px 10px #00000083);
+}
+
+#btnM:hover{
+    transition: 0.50s;
+    background-color: #352a53;
+}
+
+
+#info{
+    display: flex;
+}
+
+#info form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+#info label{
+    margin-top: 2rem;
+    color: #d8cdf7;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#info .inf{
+    height: 50px;
+    width: 35rem;
+    border-radius: 15px 0px 15px 0px;
+    border: none;
+    font-size: 20px;
+    padding: 10px 10px;
+    box-shadow: #0000002c 0px 30px 50px -12px inset, #0000004d 0px 18px 26px -18px inset;
+}
+
+#info textarea{
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 15px 0px 15px 0px;
+    width: 40rem;
+    height: 15rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.205) 0px 30px 50px -12px inset, #0000004d 0px 18px 26px -18px inset;
+}
+
+#info #btn{
+    margin: 2rem 0;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 10px;
+    border: none;
+    background: #4a3b74;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#info #btn:hover{
+    transition: 1s;
+    background: #3a3053;
+    border: 1px solid #fff;
+}
+
+footer {
+    background-color: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+footer img {
+    width: 10rem;
+}
+
+#lin {
+    border-bottom: 2px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+footer h2,
+h1,
+h3,
+a,
+ul {
+    color: #686868;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+footer a:hover{
+    transition: 0.5s;
+    color: #fc7f2c;
+    text-decoration: underline #adacac;
+}
+
+footer h3 {
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 1160px){
+
+    #cntts{
+        left: 40%;
+        margin-top: 29rem;
+    }
+
+    footer{
+        margin-top: 28rem;
+        width: 100%;
+    }
+
+    #pug{
+        width: 25rem;
+        left: 25%;
+        top: 45rem;
+    }
+
+    @media screen and (max-width: 704px){
+        #cntts{
+            top: 19rem;
+            left: 28%;
+        }
+
+        footer{
+            margin-top: 8rem;
+        }
+
+
+       #pug{
+        width: 20rem;
+        left: 14%;
+        top: 45rem;
+        display: none;
+       }
+
+       h4{
+        font-size: 50px;
+        margin-left: 6rem;
+       }
+
+       #info .inf{
+        width: 20rem;
+        height: 35px;
+       }
+
+       #info textarea{
+        width: 22rem;
+       }
+       
+        #lin img {
+            width: 5rem;
+        }
+
+        footer #lin {
+            gap: 1rem;
+        }
+
+    }
+
+}
